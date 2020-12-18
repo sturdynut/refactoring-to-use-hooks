@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+// import { SimpleExample as Example } from "./examples/SimpleExample"
+// import { SimpleExampleWithUnmountProtection as Example } from "./examples/SimpleExampleWithUnmountProtection"
+// import { ComplexExample as Example } from "./examples/ComplexExample"
+// import { HookExample as Example } from "./examples/HookExample"
+// import { HookWithReactQuery as Example } from "./examples/HookWithReactQuery"
+import { HookWithReactQueryRefactored as Example } from "./examples/HookWithReactQueryRefactored";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => <Example />;
 
 export default App;
